@@ -1,0 +1,60 @@
+"""We want do the all the changes based on the path in cmd & its fully manual"""
+
+
+#to check git is installed
+>get
+
+#login
+>git config --global user.name"srinivasasne2"
+>git config --global user.email"srinivasasne2@gmail.com"
+
+#git file location to clone all git file into offline
+>git clone https://github.com/srinivasansne2/PHP.git
+
+#checking status
+>git status
+
+#to insert new file & update & delete in github
+>git add test.py            -for specfic file
+>git commit -m"Enter The Commitement Message"
+>git push origin main       -we want to check "main?"
+
+#to insert multiple new file & update & delete in github
+>git add.          	    -for multiple file
+>git commit -m"Enter The Commitement Message"
+>git push origin main       -we want to check "main?"
+
+#updated files in github geting offline
+>git pull
+
+#to pull the request from mail branch
+>git pull origin main
+
+#to add a new folder
+>git init
+
+#to connect a new folder in github
+>git remote add origin https://github.com/
+
+# to check the origin
+>git branch
+
+#to change branch name
+>git branch -M main
+
+#to create a new branch
+>git branch NewBranchName
+
+#to check how maney branch in github
+>git branch -a
+
+#to change next branch
+>git checkout BranchName
+
+#to check diffrents between branchs
+>git diff BranchName
+
+#to merge two branch
+>git merge BranchName
+>git push origin CurrentBranchName
+
