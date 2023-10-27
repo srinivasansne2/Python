@@ -10,7 +10,7 @@
 
 #git file location to clone all git file into offline
 >git clone https://github.com/srinivasansne2/PHP.git
-
+ 
 #checking status
 >git status
 
@@ -47,6 +47,8 @@
 
 #to check how maney branch in github
 >git branch -a
+
+
 
 #to change next branch
 >git checkout BranchName
