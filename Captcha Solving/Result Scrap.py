@@ -18,7 +18,7 @@ captcha_img=driver.find_element(By.CLASS_NAME,'small')
 captcha_img.screenshot('img/captcha.png')
 #print(captcha_img)
 
-api_key=os.getenv('APIKEY_2CAPTCHA','##########Your API HERE############')
+api_key=os.getenv('APIKEY_2CAPTCHA','##########Your API HERE############')                  #<<<<<<<<<<<< Enter Your API
 
 solver = TwoCaptcha(api_key)
 try:
